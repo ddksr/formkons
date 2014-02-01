@@ -1,6 +1,7 @@
 <?php
 
-include_once 'formkons.php';
+//include_once '../src/formkons.php';
+include_once 'phar://../formkons.phar/src/formkons.php';
 
 $form = new Formkons(array("method"=>"post"));
 
